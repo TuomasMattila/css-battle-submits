@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="circle"></div>
+    <div class="dark-box"></div>
+    <div class="light-box"></div>
+    <style>
+        body {
+            background: #6592CF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .circle {
+            background: #6592CF;
+            width: 100px;
+            height: 100px;
+            z-index: -1;
+            border-radius: 50%;
+            border: solid #243D83 50px
+        }
+        
+        .dark-box {
+            background: #243D83;
+            width: 50px;
+            height: 100px;
+            position: absolute;
+            transform: translate(-75px, -50px)
+        }
+        
+        .light-box {
+            background: #6592CF;
+            width: 50px;
+            height: 100px;
+            z-index: 1;
+            position: absolute;
+            transform: translate(-25px, -50px)
+        }
+    </style>
+</body>
+</html>
