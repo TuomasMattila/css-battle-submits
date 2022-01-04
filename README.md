@@ -28,3 +28,7 @@ Battle #7 / #40 - Letter B.
 Battle #9 / #46 - Mountains
 
 <img src="Images/9_mountains.png">
+
+Battle #1 / #3 - Push button
+
+<img src="Images/1_push_button.png">
