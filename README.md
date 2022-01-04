@@ -24,3 +24,7 @@ Battle #7 / #35 - Ice cream.
 Battle #7 / #40 - Letter B.
 
 <img src="Images/7_letter_b.png">
+
+Battle #9 / #46 - Mountains
+
+<img src="Images/9_mountains.png">
