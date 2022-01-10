@@ -32,3 +32,7 @@ Battle #9 / #46 - Mountains
 Battle #1 / #3 - Push button
 
 <img src="Images/1_push_button.png">
+
+Battle #7 / #37 -Tunnel
+
+<img src="Images/7_tunnel.png">
