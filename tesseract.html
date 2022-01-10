@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battle #1 / #9 - Tesseract</title>
+</head>
+<body>
+    <div class="circle"></div>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #222730;
+            min-height: 300px;
+        }
+        
+        .circle {
+            width: 50px;
+            height: 50px;
+            background: #393E46;
+            border-radius: 50%;
+            position: relative;
+        }
+        
+        .circle::before {
+            content: "";
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            background: #4CAAB3;
+            transform: translate(-50px, -50px) rotate(45deg);
+            box-shadow: 0 0 0 50px #222730;
+            z-index: -1;
+        }
+        
+        .circle::after {
+            content: '';
+            position: absolute;
+            width: 400px;
+            height: 150px;
+            background: #4CAAB3;
+            transform: translate(-175px, -50px);
+            z-index: -2;
+        }
+    </style>
+</body>
+</html>
